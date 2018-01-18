@@ -114,7 +114,7 @@ margin-left: 0;
   background-color: #373d42;
 }
 .navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #fff;}
 
 .navbar-default {
   background-color: #373d42;
@@ -381,6 +381,7 @@ margin-left: 0;
 
 .txvalues-primary {
   background-color: #373d42;
+  color:#fff;
 }
 
 .txvalues-default {
@@ -868,6 +869,7 @@ a.v_highlight_more {
   .navbar-form .form-control {
     width: 350px;
     background-color: #40484f;
+    color:#fff;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;

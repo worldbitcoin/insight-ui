@@ -1297,7 +1297,7 @@ angular.module('insight').config(function($routeProvider) {
   $routeProvider.
     when('/block/:blockHash', {
       templateUrl: 'views/block.html',
-      title: 'Bitcoin Block '
+      title: 'World Bitcoin Block '
     }).
     when('/block-index/:blockHeight', {
       controller: 'BlocksController',
@@ -1309,7 +1309,7 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/tx/:txId/:v_type?/:v_index?', {
       templateUrl: 'views/transaction.html',
-      title: 'Bitcoin Transaction '
+      title: 'World Bitcoin Transaction '
     }).
     when('/', {
       templateUrl: 'views/index.html',
@@ -1317,15 +1317,15 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/blocks', {
       templateUrl: 'views/block_list.html',
-      title: 'Bitcoin Blocks solved Today'
+      title: 'World Bitcoin Blocks solved Today'
     }).
     when('/blocks-date/:blockDate/:startTimestamp?', {
       templateUrl: 'views/block_list.html',
-      title: 'Bitcoin Blocks solved '
+      title: 'World Bitcoin Blocks solved '
     }).
     when('/address/:addrStr', {
       templateUrl: 'views/address.html',
-      title: 'Bitcoin Address '
+      title: 'World Bitcoin Address '
     }).
     when('/status', {
       templateUrl: 'views/status.html',

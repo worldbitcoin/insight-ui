@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Insight\n"
+"Project-Id-Version: World Bitcoin\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
